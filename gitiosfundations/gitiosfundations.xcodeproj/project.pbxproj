@@ -29,9 +29,35 @@
 		D6B9DC8F2D80C7CA0020CB94 /* gitiosfundationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitiosfundationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D6B9DCB92D80DFB20020CB94 /* Exceptions for "gitiosfundations" folder in "gitiosfundations" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Debug.xcconfig,
+				Global.xcconfig,
+				Info.plist,
+				Release.xcconfig,
+			);
+			target = D6B9DC742D80C7C80020CB94 /* gitiosfundations */;
+		};
+		D6B9DCBA2D80DFB20020CB94 /* Exceptions for "gitiosfundations" folder in "gitiosfundationsUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Debug.xcconfig,
+				Global.xcconfig,
+				Release.xcconfig,
+			);
+			target = D6B9DC8E2D80C7CA0020CB94 /* gitiosfundationsUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D6B9DC772D80C7C80020CB94 /* gitiosfundations */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D6B9DCB92D80DFB20020CB94 /* Exceptions for "gitiosfundations" folder in "gitiosfundations" target */,
+				D6B9DCBA2D80DFB20020CB94 /* Exceptions for "gitiosfundations" folder in "gitiosfundationsUITests" target */,
+			);
 			path = gitiosfundations;
 			sourceTree = "<group>";
 		};
@@ -271,6 +297,8 @@
 /* Begin XCBuildConfiguration section */
 		D6B9DC972D80C7CA0020CB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = D6B9DC772D80C7C80020CB94 /* gitiosfundations */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -334,6 +362,8 @@
 		};
 		D6B9DC982D80C7CA0020CB94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = D6B9DC772D80C7C80020CB94 /* gitiosfundations */;
+			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -390,6 +420,8 @@
 		};
 		D6B9DC9A2D80C7CA0020CB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = D6B9DC772D80C7C80020CB94 /* gitiosfundations */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,6 +431,7 @@
 				DEVELOPMENT_TEAM = EH2A35JCN3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gitiosfundations/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -419,6 +452,8 @@
 		};
 		D6B9DC9B2D80C7CA0020CB94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = D6B9DC772D80C7C80020CB94 /* gitiosfundations */;
+			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,6 +463,7 @@
 				DEVELOPMENT_TEAM = EH2A35JCN3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gitiosfundations/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -448,6 +484,8 @@
 		};
 		D6B9DC9D2D80C7CA0020CB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = D6B9DC772D80C7C80020CB94 /* gitiosfundations */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +505,8 @@
 		};
 		D6B9DC9E2D80C7CA0020CB94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = D6B9DC772D80C7C80020CB94 /* gitiosfundations */;
+			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +526,8 @@
 		};
 		D6B9DCA02D80C7CA0020CB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = D6B9DC772D80C7C80020CB94 /* gitiosfundations */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +545,8 @@
 		};
 		D6B9DCA12D80C7CA0020CB94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = D6B9DC772D80C7C80020CB94 /* gitiosfundations */;
+			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
