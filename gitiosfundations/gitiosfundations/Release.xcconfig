@@ -1,0 +1,13 @@
+//
+//  Release.xcconfig
+//  gitiosfundations
+//
+//  Created by Rinto Andrews on 11/03/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Global.xcconfig"
+
+API_BASE_URL = $(inherited)
+API_KEY = production-81ff5180-254e-4ba7
