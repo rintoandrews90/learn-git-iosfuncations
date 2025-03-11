@@ -1,0 +1,15 @@
+//
+//  Debug.xcconfig
+//  gitiosfundations
+//
+//  Created by Rinto Andrews on 11/03/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Global.xcconfig"
+
+API_BASE_URL = staging.$(inherited)
+API_KEY = staging-7750a763-6286-40a2
+
