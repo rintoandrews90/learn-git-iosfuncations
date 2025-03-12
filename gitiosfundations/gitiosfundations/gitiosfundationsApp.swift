@@ -16,13 +16,4 @@ struct gitiosfundationsApp: App {
     }
 }
 
-//test
-
-//asd
-
-//asdas dsa
-
-
-
-//dafadfasd
 
