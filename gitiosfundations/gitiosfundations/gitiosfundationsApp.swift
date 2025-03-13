@@ -16,4 +16,4 @@ struct gitiosfundationsApp: App {
     }
 }
 
-//got fdg dfg
+// Removethe unused code
