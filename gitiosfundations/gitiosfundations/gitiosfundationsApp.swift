@@ -16,4 +16,8 @@ struct gitiosfundationsApp: App {
     }
 }
 
-//got fdg dfg
+struct User: Hashable {
+    let name: String
+    let age: Int
+    let dob: Data
+}
