@@ -16,6 +16,8 @@ struct gitiosfundationsApp: App {
     }
 }
 
-// Removethe unused code
-// ADD other code
-// asdasd asd
+struct User: Hashable {
+    let name: String
+    let age: Int
+    let dob: Data
+}
